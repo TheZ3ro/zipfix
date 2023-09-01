@@ -127,7 +127,7 @@ def main(filename):
     f.close()
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2:
+    if len(sys.argv) != 2:
         print("Usage: python zipfix.py <filename>")
     else:
         main(sys.argv[1])
